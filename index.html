@@ -23,24 +23,26 @@
    <!-- slick slider -->
    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+   <!-- AOS -->
+   <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
    <style>
-    #carousel {
-      width:100%;
-      height:70vh;
-      position:relative;
-      clear:both;
-      overflow:hidden;
-      background:#FFF;
-    }
-    #carousel img {
-      visibility:hidden;
-      cursor:pointer;
-    }
-    .sticky-footer{
-      position: sticky;
-      bottom: 0;
-      z-index: 9998;
-    }
+      #carousel {
+        width:100%;
+        height:70vh;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carousel img {
+        visibility:hidden;
+        cursor:pointer;
+      }
+      .sticky-footer{
+        position: sticky;
+        bottom: 0;
+        z-index: 9998;
+      }
    </style>
 </head>
 <body>
@@ -49,8 +51,7 @@
       <div class="container">
          <div class="row">
             <div class="col-5 py-0" align="left">
-               <a class="navbar-brand" href="#"><img src="https://agrevolution.in/assets/frontend/images/logo-inner.svg"
-                     class="img-fluid h-25 img w-md-84"></a>
+               <a class="navbar-brand" href="#"><img src="https://campaigns.agrevolution.in/webinar/img/logo-hindi.png" width="100px" class="img-fluid"></a>
             </div>
             <div class="col-7 py-0 d-flex align-items-center justify-content-end">
                <button class="btn text-lowercase text-white py-sm-2 mt-md-0 px-4"
@@ -64,16 +65,12 @@
       <div class="container" align="center">
          <div style="position: absolute; bottom: 0; left: 0; right: 0;">
 
-            <img src="https://digital.agrevolution.in/chacha%20-1-.png" class="img-fluid img-chacha w-md-25" />
+            <img data-aos="fade-up" src="https://digital.agrevolution.in/chacha%20-1-.png" class="img-fluid img-chacha w-md-25" />
             <div>
-               <div class="font-weight-bold text-white bg-success py-2 emoji-font" style="font-size: 24px">सभी कृषि व्यापारी को देहात का नमस्कार 🙏</div>
+               <div data-aos="slide-up" class="font-weight-bold text-white bg-success py-2 emoji-font" style="font-size: 24px">सभी कृषि व्यापारी को देहात का नमस्कार 🙏</div>
             </div>
          </div>
       </div>
-   </section>
-   <!-- heading -->
-   <section id="text-banner">
-      <h1 class="m-0 text-center font-weight-bold font-1 align-items-center align-items-center text-white para-content"> देहात पार्टनर बनकर अब तक 7 राज्यों में हजारो कृषि उत्पाद विक्रेताओं को मिला है आय में वृद्धि और क्षमताओं में बढ़ोतरी का मौका । </h1>
    </section>
    <!-- counter -->
    <section id="counter">
@@ -85,7 +82,7 @@
                <h6 class="text-white"> किसान</h6>
             </div>
             <div class="col-md-4 col-4 text-center" data-aos="slide-up">
-               <h2 class="text-white font-weight-bold counter-text"> <span class="counter"> 1480</span></h2>
+               <h2 class="text-white font-weight-bold counter-text"> <span class="counter"> 2000</span> +</h2>
                <h6 class="text-white">देहात केंद्र</h6>
             </div>
             <div class="col-md-4 col-4 text-center" data-aos="slide-up">
@@ -98,15 +95,15 @@
    </section>
    <!-- map -->
    <section class="mt-5">
-      <h2 align="center">देहात का नेटवर्क एवं पहुंच</h2>
+      <h2 align="center" data-aos="fade-up">देहात का नेटवर्क एवं पहुंच</h2>
       <div class="container">
          <div class="row">
             <div class="col-md-4 col-12">
-               <h2 class="text-dark">देहात का नेटवर्क एवं पहुंच</h2>
-               <div class="pt-3">
+               <h2 class="text-dark" data-aos="fade-up">देहात का नेटवर्क एवं पहुंच</h2>
+               <div class="pt-3" data-aos="fade-up">
                 आज देहात देश के किसानों एवं कृषि व्यापारियों को अपने मजबूत नेटवर्क एवं पहुंच के माध्यम से उनके आय एवं आय के स्त्रोतों को बढ़ा रहा है |
                </div>
-               <ul class="pt-3 pl-3 map-ul">
+               <ul class="pt-3 pl-3 map-ul" data-aos="fade-up">
                 <li>देश के <span>80</span> से अधिक जिलों में पहुंच</li>
                 <li><span>32</span>  बिज़नेस नोड</li>
                 <li><span>2000+</span>  देहात सेंटर</li>
@@ -116,43 +113,35 @@
                 <li><span>200+</span>  कॉर्पोरेट खरीदार</li>
                </ul>
             </div>
-             <div class="col-md-8 col-12 text-center mt-5">
+             <div class="col-md-8 col-12 text-center mt-5" data-aos="fade-up">
                       <!-- map -->
                     <img src="image/india.svg" class="img-fluid" style="position: relative; z-index: -1;">
-                    <!-- delhi -->
-                    <div id="delhi" style="position: absolute; top: 28%; left: 33%;">
-                        <img src="image/Pnz7w87-red-circle-clipart-removebg-preview.png" class="img-fluid blink"
-                            height="10px" width="10px">
-                        <p class="font-weight-bold mt-n1" style="font-size: 10px;"> Delhi</p>
-                    </div>
-
                     <!-- uttarpradesh -->
                     <div id="up" style="position: absolute; top: 33%; left: 41%;">
                         <img src="image/Pnz7w87-red-circle-clipart-removebg-preview.png" class="img-fluid blink"
                             height="10px" width="10px">
-                        <p class="font-weight-bold mt-n1" style="font-size: 10px;"> uttarpradesh</p>
+                        <p class="font-weight-bold mt-n1" style="font-size: 10px;"> Uttar Pradesh</p>
                     </div>
 
                     <!-- bihar -->
                     <div id="bihar" style="position: absolute; top: 37%; left: 57%;">
                         <img src="image/Pnz7w87-red-circle-clipart-removebg-preview.png" class="img-fluid blink"
                             height="10px" width="10px">
-                        <p class="font-weight-bold mt-n1" style="font-size: 10px;"> bihar</p>
+                        <p class="font-weight-bold mt-n1" style="font-size: 10px;"> Bihar</p>
                     </div>
-
 
                     <!-- orrisa -->
                     <div id="orrisa" style="position: absolute; top: 44%; left: 55%;">
                         <img src="image/Pnz7w87-red-circle-clipart-removebg-preview.png" class="img-fluid blink"
                             height="10px" width="10px">
-                        <p class="font-weight-bold mt-n1" style="font-size: 10px;"> orrissa</p>
+                        <p class="font-weight-bold mt-n1" style="font-size: 10px;"> Odisha</p>
                     </div>
 
                     <!-- bengal -->
                     <div id="bengal" style="position: absolute; top: 46%; left: 60%;">
                         <img src="image/Pnz7w87-red-circle-clipart-removebg-preview.png" class="img-fluid blink"
                             height="10px" width="10px">
-                        <p class="font-weight-bold mt-n1" style="font-size: 10px;"> bengal</p>
+                        <p class="font-weight-bold mt-n1" style="font-size: 10px;"> West Bengal</p>
                     </div>
 
                     <!-- rajasthan -->
@@ -161,21 +150,12 @@
                             height="10px" width="10px">
                         <p class="font-weight-bold mt-n1" style="font-size: 10px;"> Rajasthan</p>
                     </div>
-
-                   
-                    <!-- gujrat -->
-                     <div id="gujrat" style="position: absolute; top: 46%; left: 18%;">
-                        <img src="image/Pnz7w87-red-circle-clipart-removebg-preview.png" class="img-fluid blink"
-                        height="10px" width="10px">
-                    <p class="font-weight-bold mt-n1" style="font-size: 10px;"> gujrat</p>
-                    </div>
-                    
                     
                     <!-- madhya pradesh -->
                     <div id="mp" style="position: absolute; top: 45%; left: 33%;">
                         <img src="image/Pnz7w87-red-circle-clipart-removebg-preview.png" class="img-fluid blink"
                         height="10px" width="10px">
-                    <p class="font-weight-bold mt-n1" style="font-size: 10px;"> madhya pradesh</p>
+                    <p class="font-weight-bold mt-n1" style="font-size: 10px;"> Madhya Pradesh</p>
                     </div>
              </div>
          </div>
@@ -376,10 +356,11 @@
         }
     </style>
    <!-- partner -->
-   <section class="">
-      <h2 align="center">देहात पार्टनर</h2>
+   <section>
+      <h2 align="center" data-aos="fade-up">देहात पार्टनर</h2>
+      <div class="text-dark font-weight-bold" align="center" data-aos="fade-up"> देहात पार्टनर बनकर अब तक 7 राज्यों में हजारो कृषि उत्पाद विक्रेताओं को मिला है आय में वृद्धि और क्षमताओं में बढ़ोतरी का मौका ।</div>
       <div class="container">
-         <div class="partner-items">
+         <div class="partner-items" data-aos="fade-left">
             <div><img src="image/1.png" width="100%"></div>
             <div><img src="image/1.png" width="100%"></div>
             <div><img src="image/1.png" width="100%"></div>
@@ -402,36 +383,36 @@
          <div class="py-4" id="categories">
              <div class="row scroll">
                 <div class="col-md-4 col-12 width-scroll" style="border-right: 1px solid rgb(235, 232, 232)">
-                   <div class="row my-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                   <div class="row my-4">
                       <div class="col-4">
-                         <img src="image/ewhvm3n9ctk2palc7nre.png" class="img-fluid w-75 ">
+                         <img src="image/icons/1.png" class="img-fluid w-75 ">
                       </div>
                       <div class="col-8 changebg ml-n4">
                          <h6 class="font-weight-bold pt-4" style="color: #128141;"> पैसे के अभाव से निजात</h6>
                       </div>
                    </div>
-                   <div class="row my-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                   <div class="row my-4">
                       <div class="col-4">
-                         <img src="image/ytb416yrb4uyl53wmwtx.png" class="img-fluid w-75">
+                         <img src="image/icons/8.png" class="img-fluid w-75">
                       </div>
                       <div class="col-8 changebg ml-n4">
-                         <h6 class="font-weight-bold pt-3" style="color: #128141;"> आर्डर एवं भुगता न की समस्या से नि जा त:
+                         <h6 class="font-weight-bold pt-3" style="color: #128141;"> आर्डर एवं भुगतान की समस्या से निजात:
                          </h6>
                       </div>
                    </div>
-                   <div class="row my-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                   <div class="row my-4">
                       <div class="col-4">
-                         <img src="image/ovz6eb05u2j82knrax96.png" class="img-fluid w-75">
+                         <img src="image/icons/3.png" class="img-fluid w-75">
                       </div>
                       <div class="col-8 changebg ml-n4">
-                         <h6 class="font-weight-bold pt-4" style="color: #128141;"> खता बही के झंझट से छुटका रा :</h6>
+                         <h6 class="font-weight-bold pt-4" style="color: #128141;"> खता बही के झंझट से छुटकारा :</h6>
                       </div>
                    </div>
                 </div>
                 <div class="col-md-4 col-12 width-scroll" style="border-right: 1px solid rgb(235, 232, 232)">
-                   <div class="row my-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                   <div class="row my-4">
                       <div class="col-4">
-                         <img src="image/r7jle9jva3f6hdp81dda.png" class="img-fluid  w-75">
+                         <img src="image/icons/2.png" class="img-fluid  w-75">
                       </div>
                       <div class="col-8 changebg-pink ml-n4">
                          <h6 class="font-weight-bold pt-3" style="color: #128141;">
@@ -439,17 +420,17 @@
                          </h6>
                       </div>
                    </div>
-                   <div class="row my-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                   <div class="row my-4">
                       <div class="col-4">
-                         <img src="image/mlekkys9molzkstbv75i.png" class="img-fluid w-75">
+                         <img src="image/icons/5.png" class="img-fluid w-75">
                       </div>
                       <div class="col-8 changebg-violet ml-n4">
                          <h6 class="font-weight-bold pt-4" style="color: #128141;"> अतिरिक्त इन्वेंटरी सेनिजात </h6>
                       </div>
                    </div>
-                   <div class="row my-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                   <div class="row my-4">
                       <div class="col-4">
-                         <img src="image/vnnhza6trtob5dfvsd6l.png" class="img-fluid w-75">
+                         <img src="image/icons/4.png" class="img-fluid w-75">
                       </div>
                       <div class="col-8 changebg ml-n4">
                          <h6 class="font-weight-bold pt-4" style="color: #128141;">
@@ -459,21 +440,21 @@
                    </div>
                 </div>
                 <div class="col-md-4 col-12 width-scroll">
-                   <div class="row my-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                   <div class="row my-4">
                       <div class="col-4">
-                         <img src="image/ytb416yrb4uyl53wmwtx.png" class="img-fluid w-75">
+                         <img src="image/icons/7.png" class="img-fluid w-75">
                       </div>
                       <div class="col-8 changebg ml-n4">
                          <h6 class="font-weight-bold pt-0" style="color: #128141;"> माल डिलीवरी एवं एकत्र करने की समस्या का समाधान:</h6>
                       </div>
                    </div>                   
-                   <div class="row my-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                   <div class="row my-4">
                       <div class="col-4">
-                         <img src="image/vnnhza6trtob5dfvsd6l.png" class="img-fluid w-75">
+                         <img src="image/icons/6.png" class="img-fluid w-75">
                       </div>
                       <div class="col-8 changebg ml-n4">
                          <h6 class="font-weight-bold pt-3" style="color: #128141;">
-                            कृषि उत्पा दों की खरी द- बि क्री पर अधि क कमा ई
+                            कृषि उत्पादों की खरीद- बिक्री पर अधिक कमाई
                          </h6>
                       </div>
                    </div>
@@ -525,11 +506,13 @@
    <section class="container mt-5">
       <h2 align="center">आपके व्यवसाय को प्रबंधित करने के लिए सर्वश्रेष्ठ देहात पार्टनर ऐप</h2>
       <div id="carousel">
-        <img src="image/2051594962.png" id="item-1" width="240px" />
-        <img src="image/2051594962.png" id="item-2" width="240px" />
-        <img src="image/2051594962.png" id="item-3" width="240px" />
-        <img src="image/2051594962.png" id="item-4" width="240px" />
-        <img src="image/2051594962.png" id="item-5" width="240px" />
+        <img src="image/mockup/1.png" id="item-1" width="240px"/>
+        <img src="image/mockup/2.png" id="item-2" width="240px"/>
+        <img src="image/mockup/3.png" id="item-3" width="240px"/>
+        <img src="image/mockup/4.png" id="item-4" width="240px"/>
+        <img src="image/mockup/5.png" id="item-5" width="240px"/>
+        <img src="image/mockup/6.png" id="item-5" width="240px"/>
+        <img src="image/mockup/7.png" id="item-5" width="240px"/>
       </div>
    </section>
    <!-- video sider -->
@@ -572,8 +555,6 @@
          </div>
       </div>
    </section>
-
-
 
    <!------------------------------------------------------------------------- SECTION #5 -->
 
@@ -669,7 +650,7 @@
        <div class="container">
           <div class="row">
              <div class="col-md-2 col-12" align="center">
-                <img src="https://agrevolution.in/assets/frontend/images/logo-inner.svg" width="d-block mx-auto">
+                <img src="https://campaigns.agrevolution.in/webinar/img/logo-hindi.png" width="100px" width="d-block mx-auto">
              </div>
              <div class="col-md-5 col-12" align="center">
                 <ul class="navbar-nav">
@@ -785,6 +766,13 @@
           $("#video").attr('src',$videoSrc); 
       });
       });
+   </script>
+   <!-- AOS -->
+   <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+   <script>
+    AOS.init({
+      duration: 1200,
+    })
    </script>
 </body>
 </html>
