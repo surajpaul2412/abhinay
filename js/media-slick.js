@@ -39,6 +39,7 @@ $(document).ready(function(){
 			autoplaySpeed: 0,
 			speed: 3000,
 			pauseOnHover: false,
+			swipe: false,
 			cssEase: 'linear',
 			responsive: [
 			   {
