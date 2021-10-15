@@ -152,10 +152,13 @@ $(document).ready(function(){
 		$('.logo-items').slick({
 			infinite: true,
 			slidesToShow: 8,
-			speed: 300,
-			autoplay: true,
-			autoplaySpeed: 2000,
 			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 0,
+			speed: 3000,
+			pauseOnHover: false,
+			swipe: false,
+			cssEase: 'linear',
 			responsive: [
 			   {
 			      breakpoint: 1200,

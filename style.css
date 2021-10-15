@@ -172,12 +172,15 @@ section h2{
     position: fixed;
     bottom: 2%;
     right: 5%;
-    z-index: 9999;
+    z-index: 899;
 }
 .map-ul span{
   color: #128141;
   font-weight: 600;
   font-size: 1.2rem;
+}
+.modal-body{
+    padding: 0px !important;
 }
 
 
@@ -225,10 +228,13 @@ section h2{
         display: block !important;
     }
     .carousel3-mobile .box{
-      width: 260px;
+      width: 280px;
     }
     .pb-xs-5{
       padding-bottom: 5rem !important;
+    }
+    .media-font{
+        font-size: 1.8rem;
     }
 }
 
