@@ -45,21 +45,21 @@ $(document).ready(function(){
 			   {
 			      breakpoint: 1200,
 			      settings: {
-			         slidesToShow: 3,
+			         slidesToShow: 2,
 			         slidesToScroll: 1
 			      }
 			   },
 			   {
 			      breakpoint: 1008,
 			      settings: {
-			         slidesToShow: 3,
+			         slidesToShow: 2,
 			         slidesToScroll: 1
 			      }
 			   },
 			   {
 			      breakpoint: 800,
 			      settings: {
-			         slidesToShow: 3,
+			         slidesToShow: 2,
 			         slidesToScroll: 1
 			      }
 			   }
@@ -163,21 +163,21 @@ $(document).ready(function(){
 			   {
 			      breakpoint: 1200,
 			      settings: {
-			         slidesToShow: 3,
+			         slidesToShow: 2,
 			         slidesToScroll: 1
 			      }
 			   },
 			   {
 			      breakpoint: 1008,
 			      settings: {
-			         slidesToShow: 3,
+			         slidesToShow: 2,
 			         slidesToScroll: 1
 			      }
 			   },
 			   {
 			      breakpoint: 800,
 			      settings: {
-			         slidesToShow: 3,
+			         slidesToShow: 2,
 			         slidesToScroll: 1
 			      }
 			   }
